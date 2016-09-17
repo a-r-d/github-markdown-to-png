@@ -24,6 +24,6 @@ Export PNGs to a folder
 
 ```
 
-github-markdown-to-png -i yourmarkdownfile.md -o png
+github-markdown-to-png -i yourmarkdownfile.md -o png-dir
 
 ```

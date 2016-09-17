@@ -1,0 +1,31 @@
+{
+  "name": "github-markdown-to-png",
+  "version": "1.0.0",
+  "description": "Extracts github markdown code snippets and turns them into PNGs",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./post-install.sh",
+    "test": "cd test && ./test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-r-d/github-markdown-to-png.git"
+  },
+  "keywords": [
+    "github",
+    "markdown",
+    "png"
+  ],
+  "author": "Aaron Decker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-r-d/github-markdown-to-png/issues"
+  },
+  "homepage": "https://github.com/a-r-d/github-markdown-to-png#readme",
+  "dependencies": {
+    "markdown2pdf": "^0.2.1",
+    "mkdirp": "^0.5.1",
+    "phantomjs": "^2.1.7",
+    "yargs": "^5.0.0"
+  }
+}
