@@ -3,6 +3,9 @@
   "version": "1.1.0",
   "description": "Extracts github markdown code snippets and turns them into PNGs",
   "main": "index.js",
+  "bin": {
+    "github-markdown-to-png": "bin.js"
+  },
   "scripts": {
     "postinstall": "./post-install.sh",
     "test": "cd test && ./test.sh"
