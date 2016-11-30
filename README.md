@@ -1,5 +1,7 @@
 # github-markdown-to-png
 
+[![NPM](https://nodei.co/npm/github-markdown-to-png.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/github-markdown-to-png/)
+
 Takes github markdown code snippets and converts them to PNGs
 
 ## Requirements:
